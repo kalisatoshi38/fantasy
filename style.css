@@ -384,7 +384,7 @@ h3{
  /*------price plans----*/
  .cont{
     width:80%;
-    margin:30px;
+    margin:auto;
     
   }
   .cont h2{
@@ -401,7 +401,7 @@ h3{
   .price-row{
     width:90%;
     max-width:800px;
-    margin: auto;
+ 
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:25px;
