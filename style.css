@@ -403,9 +403,10 @@ h3{
     max-width:800px;
     margin: auto;
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
     grid-gap:25px;
     padding:20px;
+    box-sizing:border-box;
   }
   .price-col{
     background: #1f283b;
